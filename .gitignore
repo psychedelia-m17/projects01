@@ -1,3 +1,5 @@
 # Git ignore file
 
 .idea/
+__pycache__/
+
