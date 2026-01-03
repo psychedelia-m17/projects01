@@ -3,6 +3,9 @@
 from ...handlers.base import HANDLER_REGISTRY, ActionType, ActionHandler, ActionHandlerFactory
 from pathlib import Path
 from datetime import datetime, timezone
+import traceback
+import sys
+
 
 # class ActionHandlerFactory:
 #     @staticmethod
@@ -12,11 +15,18 @@ from datetime import datetime, timezone
 #             raise ValueError(f"No handler registered for {action_type}")
 #         return handler
 
-print(f"{datetime.now(timezone.utc).isoformat()}: Running: {Path(__file__)}")
+
+print(50 * "-", "\n", f"{datetime.now(timezone.utc).isoformat()}: Running: {Path(__file__)}", "\nCall stack:")
+traceback.print_stack(file=sys.stdout);
+print(50 * "-")
+
 print(f"__name__ : {__name__}")
 
 # --- Execution ---
 if __name__ == "__main__":
+    print("--- Starting Notifications ---")
+    # Show the internal registry created by __init__.py
+    print(f"\nDiscovered Handlers: {list(HANDLER_REGISTRY.keys())}")
 
     # Get the SMS handler from the factory
     sms_sender = ActionHandlerFactory.get_handler(ActionType.SMS)
@@ -32,5 +42,3 @@ if __name__ == "__main__":
     wapp_sender.set_message_client("wapp_client")
     wapp_sender.execute("Hello 3 via WhatsApp!")
 
-    # Show the internal registry created by __init__.py
-    print(f"\nDiscovered Handlers: {list(HANDLER_REGISTRY.keys())}")
