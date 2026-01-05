@@ -4,7 +4,7 @@ from ...handlers.base import HANDLER_REGISTRY, ActionType, ActionHandler, Action
 from pathlib import Path
 from datetime import datetime, timezone
 import traceback
-import sys
+import os, sys
 
 
 # class ActionHandlerFactory:
@@ -15,10 +15,14 @@ import sys
 #             raise ValueError(f"No handler registered for {action_type}")
 #         return handler
 
+print(f"{datetime.now(timezone.utc).isoformat()}: Running: {Path(__file__)}")
+print("Python module search path (sys.path):\n", sys.path, "\n")
 
-print(50 * "-", "\n", f"{datetime.now(timezone.utc).isoformat()}: Running: {Path(__file__)}", "\nCall stack:")
-traceback.print_stack(file=sys.stdout);
-print(50 * "-")
+if os.getenv("print_stack"):
+    print(50 * "-", "\nCall stack:")
+    traceback.print_stack(file=sys.stdout);
+    print(50 * "-")
+
 
 print(f"__name__ : {__name__}")
 
