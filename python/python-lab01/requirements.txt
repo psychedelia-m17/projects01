@@ -21,6 +21,9 @@ openai>=1.0.0
 httpx>=0.25.0
 requests>=2.31.0
 
+# Kubernetes
+kubernetes >=35.0.0
+
 # Utilities
 phonenumbers>=8.13.0
 structlog>=23.2.0

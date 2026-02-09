@@ -13,6 +13,10 @@ def get_stack() -> list[str]:
 def print_stack() -> None:
     print(50 * "-", "\nCall stack:"); traceback.print_stack(file=sys.stdout);print(50 * "-")
 
+def datetime_format():
+    now_str = datetime.now(timezone.utc).isoformat()
+    print(now_str)
+
 def main():
     print("Hello World")
     msg_args={"arguments": "value2"}
@@ -21,6 +25,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    print_stack()
+    # main()
+    # print_stack()
+    datetime_format()
 

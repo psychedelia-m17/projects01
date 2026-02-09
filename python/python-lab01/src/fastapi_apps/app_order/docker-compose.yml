@@ -1,0 +1,9 @@
+services:
+  order-api:
+    build: .
+    ports:
+      - "7980:7980"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
