@@ -1,0 +1,114 @@
+# Reade Me - Migrate Queues
+
+
+This README provides a comprehensive overview of the **RabbitMQ Metadata Migrator**, a Python-based utility designed to capture, persist, and replicate RabbitMQ infrastructure.
+
+---
+
+# RabbitMQ Metadata Migrator
+
+A lightweight Python CLI tool for exporting and importing RabbitMQ queues and bindings. This tool is designed for environment migrations, disaster recovery snapshots, or replicating specific infrastructure patterns across clusters.
+
+## 1. Design Philosophy
+
+The program follows a **Snapshot & Reconcile** design pattern. It decouples the source and target clusters by using a local JSON file as an intermediate "Source of Truth."
+
+### Key Architectural Features:
+
+* **API-Driven:** Interacts exclusively with the RabbitMQ Management HTTP API (Port 15672), allowing it to manage metadata that the standard AMQP protocol cannot see.
+* **Regex Discovery:** Implements "Discovery via Pattern," allowing users to target specific microservices or namespaces (e.g., only queues starting with `prod_`).
+* **Idempotent Operations:** Uses `PUT` and `POST` methods ensuring that running the import multiple times is safe and won't result in duplicate resources or errors.
+* **Dependency Awareness:** The import logic ensures that Queues are established before attempting to attach Bindings.
+
+---
+
+## 2. Prerequisites
+
+* **Python 3.8+**
+* **RabbitMQ Management Plugin:** Must be enabled on both source and target servers.
+* **Dependencies:**
+```bash
+pip install requests
+
+```
+
+
+
+---
+
+## 3. Configuration
+
+The application is governed by a `config.json` file. This allows you to define credentials and filters without modifying the source code.
+
+```json
+{
+    "source": {
+        "host": "source-server.com",
+        "port": 15672,
+        "user": "admin",
+        "pass": "secret",
+        "vhost": "%2f"
+    },
+    "target": {
+        "host": "target-server.com",
+        "port": 15672,
+        "user": "admin",
+        "pass": "secret",
+        "vhost": "%2f"
+    },
+    "settings": {
+        "queue_regex": "^prod_.*_orders$",
+        "export_file": "rabbitmq_backup.json"
+    }
+}
+
+```
+
+> **Note:** Use `%2f` for the default `/` vhost in the configuration.
+
+---
+
+## 4. Usage
+
+The script operates in two modes: `export` and `import`.
+
+### Export Mode
+
+Connects to the source server, filters queues based on your regex, identifies their bindings, and saves the state to a local file.
+
+```bash
+python main.py export
+
+```
+
+### Import Mode
+
+Reads the specified JSON file and pushes the configuration to the target server.
+
+```bash
+python main.py import
+
+```
+
+---
+
+## 5. Metadata Schema
+
+The exported file (`rabbitmq_backup.json`) uses a structured schema that includes versioning for future compatibility:
+
+* **`metadata_version`**: Tracks the schema version.
+* **`queues`**: A list of queue definitions including durability and arguments.
+* **`bindings`**: The mapping between exchanges and queues, including routing keys.
+
+---
+
+## 6. Important Considerations
+
+* **Exchanges:** This script assumes the **Exchanges** (e.g., `amq.topic` or custom exchanges) already exist on the target server. If they do not, the binding import will fail.
+* **Messages:** This tool migrates **Metadata** (infrastructure), not **Messages** (payloads).
+* **Vhost Permissions:** Ensure the authenticated user has `administrator` or `policymaker` tags in RabbitMQ to access the Management API.
+
+---
+
+
+

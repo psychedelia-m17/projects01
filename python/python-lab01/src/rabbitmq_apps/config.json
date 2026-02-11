@@ -1,0 +1,24 @@
+{
+    "source": {
+        "host": "",
+        "port": 443,
+        "protocol": "https",
+        "verify_ssl": false,
+        "user": "",
+        "pass": "",
+        "vhost": ""
+    },
+    "target": {
+        "host": "c7r1-amqp.....net",
+        "port": 443,
+        "protocol": "https",
+        "verify_ssl": false,
+        "user": "admin",
+        "pass": "cr...",
+        "vhost": "%2f"
+    },
+    "settings": {
+        "queue_regex": ".*or.*w$",
+        "export_file": "rabbitmq_gcp_stage_common.json"
+    }
+}
