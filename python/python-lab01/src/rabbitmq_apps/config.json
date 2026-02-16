@@ -1,24 +1,24 @@
 {
     "source": {
-        "host": "",
-        "port": 443,
-        "protocol": "https",
-        "verify_ssl": false,
-        "user": "",
-        "pass": "",
-        "vhost": ""
-    },
-    "target": {
-        "host": "c7r1-amqp.....net",
+        "host": "my-amqp.mydomain.net",
         "port": 443,
         "protocol": "https",
         "verify_ssl": false,
         "user": "admin",
-        "pass": "cr...",
+        "pass": "welcome",
+        "vhost": "/"
+    },
+    "target": {
+        "host": "c7r1-amqp.mydomain.net",
+        "port": 443,
+        "protocol": "https",
+        "verify_ssl": false,
+        "user": "admin",
+        "pass": "welcome",
         "vhost": "%2f"
     },
     "settings": {
-        "queue_regex": ".*or.*w$",
-        "export_file": "rabbitmq_gcp_stage_common.json"
+        "queue_regex": ".*BIZ.*",
+        "export_file": "rabbitmq_common.json"
     }
 }
