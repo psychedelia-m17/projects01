@@ -1,0 +1,5 @@
+#
+# pip install -r requirements.txt
+google-cloud-container>=2.64.0
+google-auth>=2.49.1
+PyYAML>=6.0.3

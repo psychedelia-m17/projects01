@@ -1,0 +1,347 @@
+{
+    "metadata_version": "1.1",
+    "queues": [
+        {
+            "arguments": {
+                "x-queue-type": "classic"
+            },
+            "auto_delete": false,
+            "consumer_capacity": 1.0,
+            "consumer_utilisation": 1.0,
+            "consumers": 1,
+            "durable": true,
+            "effective_policy_definition": {},
+            "exclusive": false,
+            "exclusive_consumer_tag": null,
+            "garbage_collection": {
+                "fullsweep_after": 65535,
+                "max_heap_size": 0,
+                "min_bin_vheap_size": 46422,
+                "min_heap_size": 233,
+                "minor_gcs": 712
+            },
+            "head_message_timestamp": null,
+            "idle_since": "2026-02-09T06:57:16.106+00:00",
+            "memory": 8432,
+            "message_bytes": 0,
+            "message_bytes_paged_out": 0,
+            "message_bytes_persistent": 0,
+            "message_bytes_ram": 0,
+            "message_bytes_ready": 0,
+            "message_bytes_unacknowledged": 0,
+            "messages": 0,
+            "messages_details": {
+                "rate": 0.0
+            },
+            "messages_paged_out": 0,
+            "messages_persistent": 0,
+            "messages_ram": 0,
+            "messages_ready": 0,
+            "messages_ready_details": {
+                "rate": 0.0
+            },
+            "messages_ready_ram": 0,
+            "messages_unacknowledged": 0,
+            "messages_unacknowledged_details": {
+                "rate": 0.0
+            },
+            "messages_unacknowledged_ram": 0,
+            "name": "CBIZ.ACTIVATION_RESPONSE",
+            "node": "rabbit@rabbitmq-0.rabbitmq-headless.rabbitmq.svc.cluster.local",
+            "operator_policy": null,
+            "policy": null,
+            "recoverable_slaves": null,
+            "reductions": 493653,
+            "reductions_details": {
+                "rate": 0.0
+            },
+            "single_active_consumer_tag": null,
+            "state": "running",
+            "type": "classic",
+            "vhost": "/"
+        },
+        {
+            "arguments": {
+                "x-queue-type": "classic"
+            },
+            "auto_delete": false,
+            "consumer_capacity": 1.0,
+            "consumer_utilisation": 1.0,
+            "consumers": 1,
+            "durable": true,
+            "effective_policy_definition": {},
+            "exclusive": false,
+            "exclusive_consumer_tag": null,
+            "garbage_collection": {
+                "fullsweep_after": 65535,
+                "max_heap_size": 0,
+                "min_bin_vheap_size": 46422,
+                "min_heap_size": 233,
+                "minor_gcs": 699
+            },
+            "head_message_timestamp": null,
+            "idle_since": "2026-02-09T06:57:17.259+00:00",
+            "memory": 8448,
+            "message_bytes": 0,
+            "message_bytes_paged_out": 0,
+            "message_bytes_persistent": 0,
+            "message_bytes_ram": 0,
+            "message_bytes_ready": 0,
+            "message_bytes_unacknowledged": 0,
+            "messages": 0,
+            "messages_details": {
+                "rate": 0.0
+            },
+            "messages_paged_out": 0,
+            "messages_persistent": 0,
+            "messages_ram": 0,
+            "messages_ready": 0,
+            "messages_ready_details": {
+                "rate": 0.0
+            },
+            "messages_ready_ram": 0,
+            "messages_unacknowledged": 0,
+            "messages_unacknowledged_details": {
+                "rate": 0.0
+            },
+            "messages_unacknowledged_ram": 0,
+            "name": "CBIZ.PAYMENT_RESPONSE",
+            "node": "rabbit@rabbitmq-0.rabbitmq-headless.rabbitmq.svc.cluster.local",
+            "operator_policy": null,
+            "policy": null,
+            "recoverable_slaves": null,
+            "reductions": 494504,
+            "reductions_details": {
+                "rate": 0.0
+            },
+            "single_active_consumer_tag": null,
+            "state": "running",
+            "type": "classic",
+            "vhost": "/"
+        },
+        {
+            "arguments": {
+                "x-queue-type": "classic"
+            },
+            "auto_delete": false,
+            "consumer_capacity": 1.0,
+            "consumer_utilisation": 1.0,
+            "consumers": 1,
+            "durable": true,
+            "effective_policy_definition": {},
+            "exclusive": false,
+            "exclusive_consumer_tag": null,
+            "garbage_collection": {
+                "fullsweep_after": 65535,
+                "max_heap_size": 0,
+                "min_bin_vheap_size": 46422,
+                "min_heap_size": 233,
+                "minor_gcs": 713
+            },
+            "head_message_timestamp": null,
+            "idle_since": "2026-02-09T06:57:15.756+00:00",
+            "memory": 8440,
+            "message_bytes": 0,
+            "message_bytes_paged_out": 0,
+            "message_bytes_persistent": 0,
+            "message_bytes_ram": 0,
+            "message_bytes_ready": 0,
+            "message_bytes_unacknowledged": 0,
+            "messages": 0,
+            "messages_details": {
+                "rate": 0.0
+            },
+            "messages_paged_out": 0,
+            "messages_persistent": 0,
+            "messages_ram": 0,
+            "messages_ready": 0,
+            "messages_ready_details": {
+                "rate": 0.0
+            },
+            "messages_ready_ram": 0,
+            "messages_unacknowledged": 0,
+            "messages_unacknowledged_details": {
+                "rate": 0.0
+            },
+            "messages_unacknowledged_ram": 0,
+            "name": "CBIZ.PROVISIONING_RESPONSE",
+            "node": "rabbit@rabbitmq-0.rabbitmq-headless.rabbitmq.svc.cluster.local",
+            "operator_policy": null,
+            "policy": null,
+            "recoverable_slaves": null,
+            "reductions": 501659,
+            "reductions_details": {
+                "rate": 0.0
+            },
+            "single_active_consumer_tag": null,
+            "state": "running",
+            "type": "classic",
+            "vhost": "/"
+        },
+        {
+            "arguments": {
+                "x-queue-type": "classic"
+            },
+            "auto_delete": false,
+            "consumer_capacity": 1.0,
+            "consumer_utilisation": 1.0,
+            "consumers": 1,
+            "durable": true,
+            "effective_policy_definition": {},
+            "exclusive": false,
+            "exclusive_consumer_tag": null,
+            "garbage_collection": {
+                "fullsweep_after": 65535,
+                "max_heap_size": 0,
+                "min_bin_vheap_size": 46422,
+                "min_heap_size": 233,
+                "minor_gcs": 704
+            },
+            "head_message_timestamp": null,
+            "idle_since": "2026-02-09T06:57:20.518+00:00",
+            "memory": 8432,
+            "message_bytes": 0,
+            "message_bytes_paged_out": 0,
+            "message_bytes_persistent": 0,
+            "message_bytes_ram": 0,
+            "message_bytes_ready": 0,
+            "message_bytes_unacknowledged": 0,
+            "messages": 0,
+            "messages_details": {
+                "rate": 0.0
+            },
+            "messages_paged_out": 0,
+            "messages_persistent": 0,
+            "messages_ram": 0,
+            "messages_ready": 0,
+            "messages_ready_details": {
+                "rate": 0.0
+            },
+            "messages_ready_ram": 0,
+            "messages_unacknowledged": 0,
+            "messages_unacknowledged_details": {
+                "rate": 0.0
+            },
+            "messages_unacknowledged_ram": 0,
+            "name": "CBIZ.RESUME_RESPONSE",
+            "node": "rabbit@rabbitmq-0.rabbitmq-headless.rabbitmq.svc.cluster.local",
+            "operator_policy": null,
+            "policy": null,
+            "recoverable_slaves": null,
+            "reductions": 499066,
+            "reductions_details": {
+                "rate": 0.0
+            },
+            "single_active_consumer_tag": null,
+            "state": "running",
+            "type": "classic",
+            "vhost": "/"
+        },
+        {
+            "arguments": {
+                "x-queue-type": "classic"
+            },
+            "auto_delete": false,
+            "consumer_capacity": 1.0,
+            "consumer_utilisation": 1.0,
+            "consumers": 1,
+            "durable": true,
+            "effective_policy_definition": {},
+            "exclusive": false,
+            "exclusive_consumer_tag": null,
+            "garbage_collection": {
+                "fullsweep_after": 65535,
+                "max_heap_size": 0,
+                "min_bin_vheap_size": 46422,
+                "min_heap_size": 233,
+                "minor_gcs": 703
+            },
+            "head_message_timestamp": null,
+            "idle_since": "2026-02-09T06:57:16.769+00:00",
+            "memory": 8448,
+            "message_bytes": 0,
+            "message_bytes_paged_out": 0,
+            "message_bytes_persistent": 0,
+            "message_bytes_ram": 0,
+            "message_bytes_ready": 0,
+            "message_bytes_unacknowledged": 0,
+            "messages": 0,
+            "messages_details": {
+                "rate": 0.0
+            },
+            "messages_paged_out": 0,
+            "messages_persistent": 0,
+            "messages_ram": 0,
+            "messages_ready": 0,
+            "messages_ready_details": {
+                "rate": 0.0
+            },
+            "messages_ready_ram": 0,
+            "messages_unacknowledged": 0,
+            "messages_unacknowledged_details": {
+                "rate": 0.0
+            },
+            "messages_unacknowledged_ram": 0,
+            "name": "CBIZ.SUSPEND_RESPONSE",
+            "node": "rabbit@rabbitmq-0.rabbitmq-headless.rabbitmq.svc.cluster.local",
+            "operator_policy": null,
+            "policy": null,
+            "recoverable_slaves": null,
+            "reductions": 496260,
+            "reductions_details": {
+                "rate": 0.0
+            },
+            "single_active_consumer_tag": null,
+            "state": "running",
+            "type": "classic",
+            "vhost": "/"
+        }
+    ],
+    "bindings": [
+        {
+            "source": "exchange",
+            "vhost": "/",
+            "destination": "CBIZ.ACTIVATION_RESPONSE",
+            "destination_type": "queue",
+            "routing_key": "CBIZ.ACTIVATION_RESPONSE",
+            "arguments": {},
+            "properties_key": "CBIZ.ACTIVATION_RESPONSE"
+        },
+        {
+            "source": "exchange",
+            "vhost": "/",
+            "destination": "CBIZ.PAYMENT_RESPONSE",
+            "destination_type": "queue",
+            "routing_key": "CBIZ.PAYMENT_RESPONSE",
+            "arguments": {},
+            "properties_key": "CBIZ.PAYMENT_RESPONSE"
+        },
+        {
+            "source": "exchange",
+            "vhost": "/",
+            "destination": "CBIZ.PROVISIONING_RESPONSE",
+            "destination_type": "queue",
+            "routing_key": "CBIZ.PROVISIONING_RESPONSE",
+            "arguments": {},
+            "properties_key": "CBIZ.PROVISIONING_RESPONSE"
+        },
+        {
+            "source": "exchange",
+            "vhost": "/",
+            "destination": "CBIZ.RESUME_RESPONSE",
+            "destination_type": "queue",
+            "routing_key": "CBIZ.RESUME_RESPONSE",
+            "arguments": {},
+            "properties_key": "CBIZ.RESUME_RESPONSE"
+        },
+        {
+            "source": "exchange",
+            "vhost": "/",
+            "destination": "CBIZ.SUSPEND_RESPONSE",
+            "destination_type": "queue",
+            "routing_key": "CBIZ.SUSPEND_RESPONSE",
+            "arguments": {},
+            "properties_key": "CBIZ.SUSPEND_RESPONSE"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+cluster_name: "ipl-gke-cur-stg-1-euw4"
+location: "europe-west4-a"
+polling_interval: 15
+
+node_pools:
+  - name: "ipl-gkenp-capps-stg-3"
+    target_size: 1
+  - name: "ipl-gkenp-cmon-stg-1"
+    target_size: 1
+  - name: "ipl-gkenp-czulip-stg-1"
+    target_size: 1
+

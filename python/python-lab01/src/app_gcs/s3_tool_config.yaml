@@ -1,0 +1,13 @@
+# Authentication & Endpoint
+
+# Azure - dev3
+s3_url: "https://cumulator-minio-s3.iotmarketplace.net"
+access_key: "cumulator"
+secret: "cumulator"
+
+# Bucket & Paths
+bucket_name: "ipl-gcs-ordtest1"
+target_path: "ifrs/"
+#local_regex: ".*\\.xml$"
+local_regex: "now.txt"
+download_path: "./downloads/"

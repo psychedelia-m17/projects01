@@ -1,0 +1,4 @@
+project_id: "your-project-id"
+subscription_id: "your-subscription-id"
+bucket_name: "your-target-bucket"
+local_output_file: "messages.log"

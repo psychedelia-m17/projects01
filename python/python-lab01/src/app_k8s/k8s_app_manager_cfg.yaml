@@ -1,0 +1,84 @@
+# config
+
+# europe-west4 stage cluster
+kubeconfig_path: "/home/shil/.kube/gke-ipl-stg1-eu.yaml"
+
+#envVarNameRegex: ".*DB_.*|.*PASSWORD.*"
+#envVarNameRegex: ".*HOST.*|.*BASE.*"
+
+apps:
+  keycloak:
+    - resourceType: "StatefulSet"
+      name: "ipl-kc2633-oidc-stg-1-keycloak2633"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/keycloak:26.3.3-ORD-Release-4.4.29"
+#      skip: True
+      skip: False
+
+  cumulator:
+    - resourceType: "Deployment"
+      name: "cumulator-csb"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/cumulator-mi:ORD-Release-4.4.32"
+#      skip: True
+      skip: False
+
+    - resourceType: "Deployment"
+      name: "cumulator-cbiz"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/cumulator-biz:ORD-Release-4.4.34"
+#      skip: True
+      skip: False
+
+    - resourceType: "Deployment"
+      name: "cumulator-cwf"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/cumulator-cwf:ORD-Release-4.4.25"
+#      skip: True
+      skip: False
+
+  memcached:
+    - resourceType: "Deployment"
+      name: "memcached"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/memcached:1.6.38"
+#      skip: True
+      skip: False
+
+  redis:
+    - resourceType: "StatefulSet"
+      name: "redis-master"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/redis:7.4.2"
+#      skip: True
+      skip: False
+
+  zulip:
+    - resourceType: "StatefulSet"
+      name: "zulip"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/zulip:ORD-Release-4.4.23"
+#      skip: True
+      skip: False
+
+  monitoring:
+    - resourceType: "StatefulSet"
+      name: "grafana-1-grafana"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/"
+#      skip: True
+      skip: False
+
+    - resourceType: "StatefulSet"
+      name: "opentelemetry-collector-1"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/"
+#      skip: True
+      skip: False
+
+    - resourceType: "StatefulSet"
+      name: "prometheus-1-prometheus"
+      replicas: 1
+#      image: "europe-west4-docker.pkg.dev/iot-product-launcher/ipl-ar-capps-stg-1/"
+#      skip: True
+      skip: False

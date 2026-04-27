@@ -1,0 +1,39 @@
+# Authentication & Endpoint
+
+# S3 Enpoints
+# Azure - dev3
+#s3_url: "https://cumulator-minio-s3.iotmarketplace.net"
+# Digi3 - minio
+s3_url: "http://localhost:1301"
+
+access_key: "cumulator"
+secret: "cumulator"
+
+# Azure Bucket & Paths
+#buckets:
+#  - "ipl-gcs-azasiacell"
+#  - "ipl-gcs-azooredoo"
+#  - "ipl-gcs-azordkw"
+#  - "ipl-gcs-ordop1"
+#  - "ipl-gcs-ordtest1"
+#  - ipl-gcs-1
+
+# Digi3 Bucket & Paths
+buckets:
+#  - ipl-gcs-1
+#  - ipl-gcs-1nce
+#  - ipl-gcs-korewl
+#  - ipl-gcs-ooredoo
+#  - ipl-gcs-ordop1
+#  - ipl-gcs-ordtest1
+#  - ipl-gcs-ordtest1opco1
+#  - ipl-gcs-spottel
+  - "ipl-gcs-azasiacell"
+  - "ipl-gcs-azooredoo"
+  - "ipl-gcs-azordkw"
+
+
+target_path: "ifrs/"
+#local_regex: ".*\\.xml$"
+local_regex: "now.txt"
+download_path: "./downloads/"
