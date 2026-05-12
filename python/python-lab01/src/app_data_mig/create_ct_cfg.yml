@@ -1,0 +1,33 @@
+auth:
+  token_url: "https://cumulator-api.iotmarketplace.net/cumulator/api/v4.4/auth/access_token"
+  username: "admin.1nce"
+  password: "cr19t!c"
+  tenantId: 1nce
+
+api:
+  post_url: "https://cumulator-api.iotmarketplace.net/cumulator/internal/v1/customers"
+
+payload_source:
+  data_file: "./files/data.yml"
+  # Mapping: key in JSON payload -> path relative to the 'account' object
+  mapping:
+    banDetails:
+      accountName: "$accountName"
+      ban: "$accountDetails.externalId1nceCustomerId"
+      value: "$accountDetails.externalId1nceCustomerId"
+      isManaged: "false"
+    contact:
+      ban: "$accountDetails.externalId1nceCustomerId"
+      accountName: "$accountName"
+      isManaged: false
+      firstName: "$accountDetails.contact"
+#    isGroup: false
+#    partyType: "PERSON"
+#    partyName:
+#    # 'accountName' is a key inside the account object
+#    name: "accountName"
+#    # Nested in accountDetails
+#    status: "accountDetails.accountStatus"
+#    # Accessing the first user's email
+#    primaryContact: "users[0].email"
+

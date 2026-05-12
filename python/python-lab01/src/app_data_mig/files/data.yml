@@ -1,0 +1,51 @@
+---
+- groupName: Spireon
+  accounts:
+  - accountName: Spireon
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81063507'
+      internalBssId: '10098940471'
+      status: active
+      accountType: Main account
+      companyName: Spireon
+      contact: MR Mike Davis
+      emails: lithoss@gmail.com
+      phone: +1/4252/384116
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: None days
+      stripeCustomerId: cus_PBJdATxFcZOAZY
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2023-12-13'
+      lastUpdated: '2024-11-18'
+    addresses:
+      billing:
+        attention: "Mike Davis"
+        phone: "+1/4252/384116"
+        street1: "9725 WEXLEY WAY"
+        street2: ""
+        city: "FORT WORTH"
+        state: "TX"
+        zip: "76131"
+        country: "USA"
+      shipping:
+        attention: "Mike Davis"
+        phone: "+1/4252/384116"
+        street1: "9725 WEXLEY WAY"
+        street2: ""
+        city: "FORT WORTH"
+        state: "TX"
+        zip: "76131"
+        country: "USA"
+    users:
+    - userId: '10098940476'
+      name: Mike Davis
+      email: lithoss@gmail.com
+      role: OWNER

@@ -1,0 +1,70 @@
+auth:
+  token_url: "https://cumulator-api.iotmarketplace.net/cumulator/api/v4.4/auth/access_token"
+  username: "admin.1nce"
+  password: "cr19t!c"
+  tenantId: 1nce
+
+api:
+  post_url: "https://cumulator-api.iotmarketplace.net/cumulator/internal/v1/customers"
+
+payload_source:
+  data_file: "./files/data.yml"
+  # Mapping: key in JSON payload -> path relative to the 'account' object
+  mapping:
+    banDetails:
+      accountName: "$accountName"
+      ban: "$accountDetails.externalId1nceCustomerId"
+      value: "$accountDetails.externalId1nceCustomerId"
+      isManaged: "false"
+    contact:
+      ban: "$accountDetails.externalId1nceCustomerId"
+      accountName: "$accountName"
+      isManaged: "false"
+      firstName: "$accountDetails.contact"
+      lastName: ""
+      officePhone: "$accountDetails.externalId1nceCustomerId.phone"
+      mobilePhone: "$accountDetails.externalId1nceCustomerId.phone"
+      email: "$accountDetails.externalId1nceCustomerId.emails"
+      billingCloseDay: "1"
+      createdByUser: "admin.1nce"
+#      additionalProperties:
+#          groupName: "groupName"
+#          autoTopupType: "autoTopupType"
+#          taxExempt: "taxExempt"
+#          vatValidated: "vatValidated"
+#          autoTopupFutureOrders: "autoTopupFutureOrders"
+#          stripeCustomerId: "stripeCustomerId"
+#          paymentTerm: "paymentTerm"
+#          status: "status"
+#          largeCustomer: "largeCustomer"
+    custCodeAvailable: "Y"
+#    parentPartyId: "parentPartyId"
+    shipping:
+      attention: "$addresses.shipping.attention"
+      phone: "$addresses.shipping.phone"
+      street1: "$addresses.shipping.street1"
+      street2: "$addresses.shipping.street2"
+      city: "$addresses.shipping.city"
+      state: "$addresses.shipping.state"
+      zip: "$addresses.shipping.zip"
+      country: "$addresses.shipping.country"
+    billing:
+      attention: "$addresses.billing.attention"
+      phone: "$addresses.billing.phone"
+      street1: "$addresses.billing.street1"
+      street2: "$addresses.billing.street2"
+      city: "$addresses.billing.city"
+      state: "$addresses.billing.state"
+      zip: "$addresses.billing.zip"
+      country: "$addresses.billing.country"
+    paymentInstrumentsMap: ""
+    additionalProperties:
+      groupName: "Spireon"
+      autoTopupType: "$accountDetails.autoTopupType"
+      taxExempt: "$accountDetails.taxExempt"
+      vatValidated: "$accountDetails.vatValidated"
+      autoTopupFutureOrders: "$accountDetails.autoTopupFutureOrders"
+      stripeCustomerId: "$accountDetails.stripeCustomerId"
+      paymentTerm: "30"
+      status: "$accountDetails.status"
+      largeCustomer: "$accountDetails.largeCustomer"

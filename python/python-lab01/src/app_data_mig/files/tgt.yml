@@ -1,0 +1,1560 @@
+- groupName: Procon
+  accounts:
+  - accountName: Procon Analytics - Subscription Dev Account
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81120220'
+      internalBssId: '10327448544'
+      status: active
+      accountType: Main account
+      companyName: Procon Analytics - Subscription Dev Account
+      contact: MR Kevin Wool-Smith
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: kws_dev@proconanalytics.com
+        escape: true
+      phone: +1/619/8907110
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: 0 days
+      stripeCustomerId: cus_S9KYZmLGoJZqmH
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2025-04-17'
+      lastUpdated: '2025-05-26'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10500552732'
+      name: api user
+      email: 81120220_api
+      role: API
+    - userId: '10386222629'
+      name: Andrew Campbell
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ancampbell@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '10363675760'
+      name: William Latshaw
+      email:
+      - !!python/object:marko.inline.RawText
+        children: wlatshaw+apdev@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10327920170'
+      name: Alex Campbell
+      email:
+      - !!python/object:marko.inline.RawText
+        children: acampbell@connecteddealerservices.com
+        escape: true
+      role: ADMIN
+    - userId: '10327919966'
+      name: Dave O'Connor
+      email:
+      - !!python/object:marko.inline.RawText
+        children: doconnor@connecteddealerservices.com
+        escape: true
+      role: ADMIN
+    - userId: '10327919306'
+      name: Jeff Oleksy
+      email:
+      - !!python/object:marko.inline.RawText
+        children: joleksy@connecteddealerservices.com
+        escape: true
+      role: ADMIN
+    - userId: '10327448548'
+      name: Kevin Wool-Smith
+      email:
+      - !!python/object:marko.inline.RawText
+        children: kws_dev@proconanalytics.com
+        escape: true
+      role: OWNER
+  - accountName: Procon Analytics - Subscription (Sleep)
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81111708'
+      internalBssId: '10284066257'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '10266381389'
+      companyName: Procon Analytics - Subscription (Sleep)
+      contact: MR Bill Cheney
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: cari_ap@proconanalytics.com
+        escape: true
+      phone: +1/619/8907110
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'No'
+      paymentTerm: None days
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2024-12-17'
+      lastUpdated: '2025-11-11'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10485254707'
+      name: Ews Godlewska
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ewa.godlewska+suspended@m2msuite.com
+        escape: true
+      role: ADMIN
+    - userId: '10481116651'
+      name: Cari Cheney2
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ccheney+suspended@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10285517449'
+      name: m2m user
+      email: 81111708_m2m
+      role: API
+    - userId: '10285469079'
+      name: Kevin Wool-Smith
+      email:
+      - !!python/object:marko.inline.RawText
+        children: kevin_ap999@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10284066259'
+      name: Cari Cheney
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Cari_ap2@proconanalytics.com
+        escape: true
+      role: OWNER
+  - accountName: Procon Analytics - Subscription
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81110503'
+      internalBssId: '10266381389'
+      status: active
+      accountType: Main account
+      companyName: Procon Analytics - Subscription
+      contact: MR Bill Cheney
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: us.backoffice.sales@1nce.com
+        escape: true
+      phone: +1/619/8907110
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'Yes'
+      taxExempt: 'Yes'
+      vatValidated: 'Yes'
+      paymentTerm: 30 days
+      stripeCustomerId: cus_RNaIKXdhxMBAis
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2024-11-14'
+      lastUpdated: '2026-04-10'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10501423916'
+      name: tyler cp
+      email: 81110503_tylerapi
+      role: API
+    - userId: '10485255665'
+      name: Ews Godlewska
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ewa.godlewska+monthly@m2msuite.com
+        escape: true
+      role: ADMIN
+    - userId: '10413947445'
+      name: Jeff Oleksy
+      email: 81110503_joleksy
+      role: API
+    - userId: '10390906578'
+      name: Jeff Oleksy
+      email:
+      - !!python/object:marko.inline.RawText
+        children: joleksy+monthly@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10379820481'
+      name: Tyler Coleman-Poggi
+      email:
+      - !!python/object:marko.inline.RawText
+        children: tcolemanpoggi+monthly@proconanalytics.com
+        escape: true
+      role: USER
+    - userId: '10371215312'
+      name: eng dev
+      email: 81110503_engdev
+      role: API
+    - userId: '10353975377'
+      name: Will Latshaw
+      email:
+      - !!python/object:marko.inline.RawText
+        children: wlatshaw+monthly@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10309665864'
+      name: G Comeau
+      email:
+      - !!python/object:marko.inline.RawText
+        children: guillaume+1nce@m2msuite.com
+        escape: true
+      role: ADMIN
+    - userId: '10299422248'
+      name: big brain
+      email: 81110503_bigbrain
+      role: API
+    - userId: '10290513188'
+      name: m2mapi user
+      email: 81110503_m2m
+      role: API
+    - userId: '10290513257'
+      name: Kevin Wool-Smith
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Kevin_ap@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10290059237'
+      name: Cari Cheney
+      email:
+      - !!python/object:marko.inline.RawText
+        children: cari_ap@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10266381393'
+      name: Kristen Hale
+      email:
+      - !!python/object:marko.inline.RawText
+        children: khale_ap@connecteddealerservices.com
+        escape: true
+      role: ADMIN
+  - accountName: Procon Analytics
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81016634'
+      internalBssId: '6569560671'
+      status: active
+      accountType: Main account
+      companyName: Procon Analytics
+      contact: MR Bill Cheney
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: sales@1nce.com
+        escape: true
+      phone: +1//6198907110
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'Yes'
+      taxExempt: 'Yes'
+      vatValidated: 'Yes'
+      paymentTerm: 360 days
+      stripeCustomerId: cus_MzZEaeCgWZojlh
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2022-03-21'
+      lastUpdated: '2026-03-11'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10501414292'
+      name: tyler coleman poggi
+      email: 81016634_tylerapi
+      role: API
+    - userId: '10363690254'
+      name: William Latshaw
+      email:
+      - !!python/object:marko.inline.RawText
+        children: wlatshaw+prepaid@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10337179797'
+      name: Jeff Oleksy
+      email: 81110503_prepay_joleksy
+      role: API
+    - userId: '10114229863'
+      name: Jeremiah Abray
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jabray@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '10114229649'
+      name: Michael Aguilar
+      email:
+      - !!python/object:marko.inline.RawText
+        children: maguilar@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '10114229839'
+      name: Gary Leonard
+      email:
+      - !!python/object:marko.inline.RawText
+        children: gleonard@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '10083789726'
+      name: Jeff Oleksy
+      email:
+      - !!python/object:marko.inline.RawText
+        children: joleksy@proconanalytics.com
+        escape: true
+      role: ADMIN
+    - userId: '10053015837'
+      name: Ana Gonzalez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: agonzalez@connecteddealerservices.com
+        escape: true
+      role: ADMIN
+    - userId: '10038880501'
+      name: Francis Toglia
+      email:
+      - !!python/object:marko.inline.RawText
+        children: francis@fluidpower.ai
+        escape: true
+      role: USER
+    - userId: '10028770933'
+      name: Procon Telematics1nce
+      email:
+      - !!python/object:marko.inline.RawText
+        children: procontelematics-1nce@outlook.com
+        escape: true
+      role: OWNER
+    - userId: '10017753502'
+      name: Fluid Power
+      email: 81016634_fluid
+      role: API
+    - userId: '10017073508'
+      name: Juan Ramirez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jramirez@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '9263335631'
+      name: Guillaume Comeau
+      email:
+      - !!python/object:marko.inline.RawText
+        children: guillaume@m2msuite.com
+        escape: true
+      role: USER
+    - userId: '9263210507'
+      name: Tyler Poggi
+      email:
+      - !!python/object:marko.inline.RawText
+        children: TColemanPoggi@proconanalytics.com
+        escape: true
+      role: USER
+    - userId: '8623597756'
+      name: Nathaniel Brown
+      email:
+      - !!python/object:marko.inline.RawText
+        children: nbrown@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '8623577285'
+      name: Angel Garibay
+      email:
+      - !!python/object:marko.inline.RawText
+        children: agaribay@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '8623544013'
+      name: Jaqueline Nunez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jnunez@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '8623125685'
+      name: Paul Vergara
+      email:
+      - !!python/object:marko.inline.RawText
+        children: pvergara@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '8623114328'
+      name: Adrian Hernandez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ahernandez@connecteddealerservices.com
+        escape: true
+      role: USER
+    - userId: '7602609252'
+      name: script user
+      email: 81016634_81016634_scripts1
+      role: API
+    - userId: '7602552027'
+      name: Renato Motta
+      email:
+      - !!python/object:marko.inline.RawText
+        children: rmotta@phillips-connect.com
+        escape: true
+      role: USER
+    - userId: '7464050107'
+      name: Kristen Hale
+      email:
+      - !!python/object:marko.inline.RawText
+        children: khale@connecteddealerservices.com
+        escape: true
+      role: ADMIN
+    - userId: '7327043037'
+      name: m2m api
+      email: 81016634_81016634_m2m
+      role: API
+    - userId: '7262307858'
+      name: Ewa Godlewska
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ewa.godlewska@m2msuite.com
+        escape: true
+      role: USER
+    - userId: '7262295461'
+      name: Cari Cheney
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ccheney@proconanalytics.com
+        escape: true
+      role: OWNER
+    - userId: '6756186444'
+      name: Kevin Wool-Smith
+      email:
+      - !!python/object:marko.inline.RawText
+        children: kwoolsmith@proconanalytics.com
+        escape: true
+      role: OWNER
+    - userId: '6569560675'
+      name: Bill Cheney
+      email:
+      - !!python/object:marko.inline.RawText
+        children: bcheney@proconanalytics.com
+        escape: true
+      role: OWNER
+- groupName: Spireon
+  accounts:
+  - accountName: Spireon
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81063507'
+      internalBssId: '10098940471'
+      status: active
+      accountType: Main account
+      companyName: Spireon
+      contact: MR Mike Davis
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: lithoss@gmail.com
+        escape: true
+      phone: +1/4252/384116
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: None days
+      stripeCustomerId: cus_PBJdATxFcZOAZY
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2023-12-13'
+      lastUpdated: '2024-11-18'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10098940476'
+      name: Mike Davis
+      email:
+      - !!python/object:marko.inline.RawText
+        children: lithoss@gmail.com
+        escape: true
+      role: OWNER
+  - accountName: Spireon Stage
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81028175'
+      internalBssId: '9391683387'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '5971618636'
+      companyName: Spireon Stage
+      contact: MR Al Rodriguez
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: accounts.payable@spireon.com
+        escape: true
+      phone: '+19413489943'
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: 90 days
+      stripeCustomerId: cus_MzZKKvCVcKk78z
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'Yes'
+      accountCreated: '2022-10-11'
+      lastUpdated: '2026-04-13'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10307950026'
+      name: Lee Conner
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Lee.Conner@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10307949909'
+      name: Weston Woods
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Weston.Woods@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10307949897'
+      name: Mark Flacy
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Mark.Flacy@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10307949714'
+      name: Ruth Devlaeminck
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Ruth.Devlaeminck@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10307948414'
+      name: Eduardo Salinas
+      email:
+      - !!python/object:marko.inline.RawText
+        children: esalinas@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '10110025447'
+      name: Mariia Heria
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mariia.heria@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10110022811'
+      name: Paul Peterson
+      email:
+      - !!python/object:marko.inline.RawText
+        children: paul.peterson@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10110022625'
+      name: Paul Peterson
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ppeterson-stage@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '10053596208'
+      name: Hector Villada Dominguez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: hvillada-dominguez@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '10050725590'
+      name: Kishor Kandel
+      email:
+      - !!python/object:marko.inline.RawText
+        children: kishor.kandel@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10044736071'
+      name: Cell team API
+      email: 81028175_81028175_cellapi
+      role: API
+    - userId: '10038257864'
+      name: Chenthilvel Ganapathiappan
+      email:
+      - !!python/object:marko.inline.RawText
+        children: CGanapathiappan@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '9520159143'
+      name: Richard Shenkenberg
+      email:
+      - !!python/object:marko.inline.RawText
+        children: RShenkenberg-stage@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '9506859878'
+      name: Jonathan Kirkland
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jkirkland-stage@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '9502698164'
+      name: Spireon Staging
+      email: 81028175_spireon_api_staging
+      role: API
+    - userId: '9489430787'
+      name: Al Rodriguez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: arodriguez1ncestage@spireon.com
+        escape: true
+      role: OWNER
+  - accountName: TGW Test Spireon
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81024950'
+      internalBssId: '8853502232'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '5971618636'
+      companyName: TGW Test Spireon
+      contact: MR Walter Flores
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: wflores@spireon.com
+        escape: true
+      phone: '+19413489943'
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: 90 days
+      stripeCustomerId: cus_MzZKG31L6i2xM6
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2022-09-07'
+      lastUpdated: '2025-07-16'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '247795129'
+      name: Al Rodrigez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: alrod76@gmail.com
+        escape: true
+      role: ADMIN
+    - userId: '8853502234'
+      name: Walter Flores
+      email:
+      - !!python/object:marko.inline.RawText
+        children: wflores@spireon.com
+        escape: true
+      role: OWNER
+  - accountName: Spireon
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81015351'
+      internalBssId: '5971618636'
+      status: active
+      accountType: Main account
+      companyName: Spireon
+      contact: MS Maria-Pia Duffy-Foltz
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: maria-pia.duffy-foltz@solera.com
+        escape: true
+      phone: +1/941/3489943
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'Yes'
+      taxExempt: 'Yes'
+      vatValidated: 'Yes'
+      paymentTerm: 90 days
+      stripeCustomerId: cus_MzZKtkRYZFVxbh
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'Yes'
+      accountCreated: '2022-01-27'
+      lastUpdated: '2026-04-06'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10433768567'
+      name: Nandita Joshi
+      email:
+      - !!python/object:marko.inline.RawText
+        children: nandita.joshi@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10358802846'
+      name: Ivan Salgado
+      email: 81015351_81015351_IvanTest
+      role: API
+    - userId: '10262483987'
+      name: SpireonApiUser3 Api
+      email: 81015351_spireon_api_prod3
+      role: API
+    - userId: '10244609025'
+      name: Rajendra R
+      email:
+      - !!python/object:marko.inline.RawText
+        children: rr@spireon.com
+        escape: true
+      role: USER
+    - userId: '10233704832'
+      name: Kishor Kandel
+      email: 81015351_kishor
+      role: API
+    - userId: '10135960018'
+      name: Ramanjaneyulu Sanka
+      email:
+      - !!python/object:marko.inline.RawText
+        children: RSanka@spireon.com
+        escape: true
+      role: USER
+    - userId: '10135960014'
+      name: Nujitha Yalarathi
+      email:
+      - !!python/object:marko.inline.RawText
+        children: NYalarathi@spireon.com
+        escape: true
+      role: USER
+    - userId: '10069248897'
+      name: Larissa Collins
+      email:
+      - !!python/object:marko.inline.RawText
+        children: lacollins@spireon.com
+        escape: true
+      role: USER
+    - userId: '10069248739'
+      name: Jasmine Reed
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jreed@spireon.com
+        escape: true
+      role: USER
+    - userId: '10069248654'
+      name: Andrew Bloom
+      email:
+      - !!python/object:marko.inline.RawText
+        children: abloom@spireon.com
+        escape: true
+      role: USER
+    - userId: '10069248648'
+      name: Josh Ceniseros
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jceniseros@spireon.com
+        escape: true
+      role: USER
+    - userId: '10069248725'
+      name: Brian Leon
+      email:
+      - !!python/object:marko.inline.RawText
+        children: bleon@spireon.com
+        escape: true
+      role: USER
+    - userId: '10064616948'
+      name: Emerson Rivera
+      email:
+      - !!python/object:marko.inline.RawText
+        children: erivera@spireon.com
+        escape: true
+      role: USER
+    - userId: '10060756360'
+      name: Hector Villda
+      email: 81015351_81015351_hvillada
+      role: API
+    - userId: '10060756355'
+      name: Hector Villada
+      email: 81015351_hvillada
+      role: API
+    - userId: '10060639988'
+      name: Heidi Diers
+      email:
+      - !!python/object:marko.inline.RawText
+        children: heidid@spireon.com
+        escape: true
+      role: USER
+    - userId: '10060639863'
+      name: Gina Dunne
+      email:
+      - !!python/object:marko.inline.RawText
+        children: gdunne@spireon.com
+        escape: true
+      role: USER
+    - userId: '10055102084'
+      name: Yaritza Agustin
+      email:
+      - !!python/object:marko.inline.RawText
+        children: YAgustin@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '10051053912'
+      name: Hector Villada
+      email:
+      - !!python/object:marko.inline.RawText
+        children: hector.v@solera.com
+        escape: true
+      role: OWNER
+    - userId: '10048689381'
+      name: Jerry Lu
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Jerry.Lu@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10048689195'
+      name: Xenia Rodriguez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: xenia.rodriguez@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '10046735949'
+      name: Kishor Kandel
+      email: 81015351_kkandel
+      role: API
+    - userId: '10041116642'
+      name: Jorje Hernandez
+      email: 81015351_jhernandez
+      role: API
+    - userId: '10036540458'
+      name: Bill Dhunam
+      email:
+      - !!python/object:marko.inline.RawText
+        children: william.dunham@solera.com
+        escape: true
+      role: USER
+    - userId: '10030891747'
+      name: Omid Haddadi
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ohaddadi@spireon.com
+        escape: true
+      role: USER
+    - userId: '10021728733'
+      name: Wilson Tat
+      email:
+      - !!python/object:marko.inline.RawText
+        children: wtat@spireon.com
+        escape: true
+      role: USER
+    - userId: '10018979566'
+      name: Maria Duffy-Foltz
+      email:
+      - !!python/object:marko.inline.RawText
+        children: maria-pia.duffy-foltz@solera.com
+        escape: true
+      role: ADMIN
+    - userId: '9980033237'
+      name: Dai Tran
+      email:
+      - !!python/object:marko.inline.RawText
+        children: dtran@spireon.com
+        escape: true
+      role: USER
+    - userId: '9641566205'
+      name: Ravi Pothala
+      email:
+      - !!python/object:marko.inline.RawText
+        children: RPothala@spireon.com
+        escape: true
+      role: USER
+    - userId: '9641559039'
+      name: Saikiran Kommu
+      email:
+      - !!python/object:marko.inline.RawText
+        children: SKommu@spireon.com
+        escape: true
+      role: USER
+    - userId: '9641552049'
+      name: Gopinath Gadaparthi
+      email:
+      - !!python/object:marko.inline.RawText
+        children: GGadaparthi@spireon.com
+        escape: true
+      role: USER
+    - userId: '9641546722'
+      name: Brian Kanya
+      email:
+      - !!python/object:marko.inline.RawText
+        children: BKanya@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523525718'
+      name: Michael Del Campo
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mdelcampo@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523519460'
+      name: Samedy Ung
+      email:
+      - !!python/object:marko.inline.RawText
+        children: sung@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523504922'
+      name: Francisco Roque
+      email:
+      - !!python/object:marko.inline.RawText
+        children: froque@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523499336'
+      name: Sarphy Soulong
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ssoulong@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523488254'
+      name: Raja Dhiman
+      email:
+      - !!python/object:marko.inline.RawText
+        children: rdhiman@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523473102'
+      name: Sergio Rivera
+      email:
+      - !!python/object:marko.inline.RawText
+        children: srivera@spireon.com
+        escape: true
+      role: USER
+    - userId: '9523379973'
+      name: Mike Davis
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mdavis@spireon.com
+        escape: true
+      role: USER
+    - userId: '9486495684'
+      name: Tony Liberto
+      email:
+      - !!python/object:marko.inline.RawText
+        children: tliberto@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '9439061340'
+      name: SpireonApiUser Prod
+      email: 81015351_spireon_api_prod
+      role: API
+    - userId: '9186087792'
+      name: John Tellep
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jtellep@spireon.com
+        escape: true
+      role: USER
+    - userId: '9186085313'
+      name: Mariia Heria
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mheria@spireon.com
+        escape: true
+      role: USER
+    - userId: '9186072040'
+      name: Paul Peterson
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ppeterson@spireon.com
+        escape: true
+      role: USER
+    - userId: '8777792730'
+      name: Mei Kuo
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mkuo@spireon.com
+        escape: true
+      role: OWNER
+    - userId: '8729067940'
+      name: Ruth Devlaeminck
+      email:
+      - !!python/object:marko.inline.RawText
+        children: RDevlaeminck@spireon.com
+        escape: true
+      role: USER
+    - userId: '8729064409'
+      name: Richard Shenkenberg
+      email:
+      - !!python/object:marko.inline.RawText
+        children: RShenkenberg@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '8729060624'
+      name: Lee Conner
+      email:
+      - !!python/object:marko.inline.RawText
+        children: lconner@spireon.com
+        escape: true
+      role: USER
+    - userId: '8729055502'
+      name: Mark Flacy
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mflacy@spireon.com
+        escape: true
+      role: USER
+    - userId: '8729050353'
+      name: Weston Woods
+      email:
+      - !!python/object:marko.inline.RawText
+        children: WWoods@spireon.com
+        escape: true
+      role: USER
+    - userId: '8625792339'
+      name: Loic Wynrocx
+      email:
+      - !!python/object:marko.inline.RawText
+        children: lwynrocx@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '8310362968'
+      name: Kishor Kandel
+      email:
+      - !!python/object:marko.inline.RawText
+        children: kkandel@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '8255258047'
+      name: Michael Scott
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mscott@spireon.com
+        escape: true
+      role: OWNER
+    - userId: '8157098723'
+      name: Jonathan Kirkland
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jkirkland@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '8007562979'
+      name: Jorje Hernanadez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jhernandez@spireon.com
+        escape: true
+      role: ADMIN
+    - userId: '5971634186'
+      name: Al Rodriguez
+      email: anonymous.20240525
+      role: UNKNOWN
+- groupName: Ikon
+  accounts:
+  - accountName: Ikon-NGv4-Staging
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81142488'
+      internalBssId: '10491298513'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '10050722220'
+      companyName: Ikon-NGv4-Staging
+      contact: MR Ikon IT Operations
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: ikon.operations+3@ikontechnologies.com
+        escape: true
+      phone: +1/817/6087672
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: None days
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2026-01-27'
+      lastUpdated: '2026-02-20'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10492536431'
+      name: Ikon QA
+      email:
+      - !!python/object:marko.inline.RawText
+        children: QA+4@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10491298845'
+      name: Manuel Gomez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Manuel.Gomez+4@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10491298828'
+      name: Aravjit Sachdeva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Aravjit.Sachdeva+4@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10491298515'
+      name: Ikon IT Operations
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ikon.operations+3@ikontechnologies.com
+        escape: true
+      role: OWNER
+  - accountName: Ikon-NGv4-QA
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81142408'
+      internalBssId: '10491210419'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '10050722220'
+      companyName: Ikon-NGv4-QA
+      contact: MR Ikon IT Operations
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: ikon.operations+2@ikontechnologies.com
+        escape: true
+      phone: +1/817/6087672
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: None days
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2026-01-26'
+      lastUpdated: '2026-02-20'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10492536386'
+      name: Ikon QA
+      email:
+      - !!python/object:marko.inline.RawText
+        children: QA+2@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10491295730'
+      name: Manuel Gomez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Manuel.Gomez+2@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10491294451'
+      name: Aravjit Sachdeva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Aravjit.Sachdeva+2@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10491210421'
+      name: Ikon IT Operations
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ikon.operations+2@ikontechnologies.com
+        escape: true
+      role: OWNER
+  - accountName: Ikon-NGv4-Dev
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81142388'
+      internalBssId: '10491204430'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '10050722220'
+      companyName: Ikon-NGv4-Dev
+      contact: MR Ikon IT Operations
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: ikon.operations+1@ikontechnologies.com
+        escape: true
+      phone: +1/817/6087672
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: None days
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2026-01-26'
+      lastUpdated: '2026-02-20'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10492536415'
+      name: Ikon QA
+      email:
+      - !!python/object:marko.inline.RawText
+        children: QA+3@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10491297599'
+      name: Manuel Gomez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Manuel.Gomez+3@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10491297668'
+      name: Aravjit Sachdeva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Aravjit.Sachdeva+3@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10491204432'
+      name: Ikon IT Operations
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ikon.operations+1@ikontechnologies.com
+        escape: true
+      role: OWNER
+  - accountName: Ikon Gateways
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81120889'
+      internalBssId: '10338602354'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '10050722220'
+      companyName: Ikon Gateways
+      contact: MR MOISES VILLANUEVA
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: MV+1@IKONTECHNOLOGIES.COM
+        escape: true
+      phone: +1/682/7776826
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: 30 days
+      stripeCustomerId: cus_SrTSnphn68wlov
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2025-05-01'
+      lastUpdated: '2026-03-30'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10398321942'
+      name: Aravjit Sachdeva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Aravjit.Sachdeva+1@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10387651102'
+      name: Hayden Lauer
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Hayden.Lauer@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10385961599'
+      name: Manuel Gomez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: manuel.gomez+1@ikontechnologies.com
+        escape: true
+      role: OWNER
+    - userId: '10338602456'
+      name: MOISES VILLANUEVA
+      email:
+      - !!python/object:marko.inline.RawText
+        children: MV+1@IKONTECHNOLOGIES.COM
+        escape: true
+      role: OWNER
+  - accountName: ikontechnologies-dev
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81057142'
+      internalBssId: '10082921014'
+      status: active
+      accountType: Sub-account
+      parentCustomerId: '10050722220'
+      companyName: ikontechnologies-dev
+      contact: MR Aravijt Sachdeva
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: as@ikontechnologies.com
+        escape: true
+      phone: '8174128437'
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'No'
+      taxExempt: 'No'
+      vatValidated: 'Yes'
+      paymentTerm: None days
+      autoTopupType: AUTO_TOPUP_WITH_CREDIT_CARD
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2023-10-18'
+      lastUpdated: '2026-02-20'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10332513436'
+      name: Ramesh Regulapati
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Ramesh.Regulapati+1@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10265959195'
+      name: Manuel Gomez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ManuelG-1nce-Staging@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10238141491'
+      name: R R
+      email:
+      - !!python/object:marko.inline.RawText
+        children: rr@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10215947345'
+      name: Matheus Silva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: matheus.silva+1@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10158302164'
+      name: API user
+      email: 81057142_staging_api_user_1nce
+      role: API
+    - userId: '10134917029'
+      name: Benny Zhang
+      email:
+      - !!python/object:marko.inline.RawText
+        children: benny.zhang@eskywireless.com
+        escape: true
+      role: USER
+    - userId: '10134397700'
+      name: staging API
+      email: 81057142_1nce_api_staging
+      role: API
+    - userId: '10087405341'
+      name: Oscar Castrejon
+      email:
+      - !!python/object:marko.inline.RawText
+        children: OC@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10082921063'
+      name: Moises Villanueva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: moises.villanueva@ikontechnologies.com
+        escape: true
+      role: OWNER
+    - userId: '10082921016'
+      name: Aravijt Sachdeva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: as@ikontechnologies.com
+        escape: true
+      role: OWNER
+  - accountName: Ikon Technologies
+    accountDetails:
+      field: Value
+      externalId1nceCustomerId: '81050898'
+      internalBssId: '10050722220'
+      status: active
+      accountType: Main account
+      companyName: Ikon Technologies
+      contact: MR Moises Villanueva
+      emails:
+      - !!python/object:marko.inline.RawText
+        children: Sharon.Palomo@ikontechnologies.com
+        escape: true
+      phone: +1/682/7776826
+      currency: USD
+      contactLanguage: EN
+      platform: '1'
+      clientId: '2'
+      largeCustomer: 'Yes'
+      taxExempt: 'Yes'
+      vatValidated: 'Yes'
+      paymentTerm: 30 days
+      stripeCustomerId: cus_O7mvbX6ELDkebW
+      autoTopupType: AUTO_TOPUP_WITH_MONTHLY_INVOICE
+      autoTopupForFutureOrders: 'No'
+      accountCreated: '2023-06-21'
+      lastUpdated: '2026-04-10'
+    addresses:
+      billing: []
+      shipping: []
+    users:
+    - userId: '10536997897'
+      name: Austin Mullin
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Austin.Mullin@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10505485396'
+      name: QA Ikon
+      email:
+      - !!python/object:marko.inline.RawText
+        children: qa@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10484018470'
+      name: Ana Buckley
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ana.buckley@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10397190703'
+      name: Tristan Rojas
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Tristan.Rojas@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10397191686'
+      name: Michael McCreary
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Michael.McCreary@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10266583818'
+      name: Manuel Gomez
+      email:
+      - !!python/object:marko.inline.RawText
+        children: manuel.gomez@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10149535424'
+      name: main api
+      email: 81050898_main_api
+      role: API
+    - userId: '10134397207'
+      name: Api Account
+      email: 81050898_1nce_api_main
+      role: API
+    - userId: '10119573084'
+      name: Kevin To
+      email:
+      - !!python/object:marko.inline.RawText
+        children: kevin.to@ikontechnologies.com
+        escape: true
+      role: ADMIN
+    - userId: '10114446149'
+      name: Rommel Ponce
+      email:
+      - !!python/object:marko.inline.RawText
+        children: rommel.ponce@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10101608200'
+      name: API User
+      email: 81050898_ikonapi2
+      role: API
+    - userId: '10083367844'
+      name: API User
+      email: 81050898_ikonapi
+      role: API
+    - userId: '10083325170'
+      name: Ricardo Jarquin
+      email:
+      - !!python/object:marko.inline.RawText
+        children: ricardo.jarquin@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10083206802'
+      name: Oscar Castrejon
+      email:
+      - !!python/object:marko.inline.RawText
+        children: oscar.castrejon@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10083206266'
+      name: Diego Camarena
+      email:
+      - !!python/object:marko.inline.RawText
+        children: diego.camarena@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10051039804'
+      name: Aravjit Sachdeva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: aravjit.sachdeva@ikontechnologies.com
+        escape: true
+      role: USER
+    - userId: '10050723150'
+      name: Ikon Operations
+      email:
+      - !!python/object:marko.inline.RawText
+        children: Ikon.Operations@Ikontechnologies.com
+        escape: true
+      role: OWNER
+    - userId: '10050722224'
+      name: Moises Villanueva
+      email:
+      - !!python/object:marko.inline.RawText
+        children: mv@ikontechnologies.com
+        escape: true
+      role: OWNER
+    - userId: '10043964050'
+      name: 1NCE Support Spireon
+      email:
+      - !!python/object:marko.inline.RawText
+        children: jan.sulaiman+spireonsupport@1nce.com
+        escape: true
+      role: OWNER

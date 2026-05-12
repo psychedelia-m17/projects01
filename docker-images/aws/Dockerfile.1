@@ -1,0 +1,45 @@
+# Use the official AWS CLI image as the base
+FROM amazon/aws-cli:latest
+
+# 1. Install system prerequisites
+# Amazon Linux 2023 uses dnf. we need 'dnf-plugins-core' for managing repos.
+RUN dnf update -y && dnf install -y \
+    tar \
+    gzip \
+    unzip \
+    shadow-utils \
+    dnf-plugins-core \
+    yum-utils \
+    && dnf clean all
+
+# 2. Install kubectl
+# We create the repo file for the official Kubernetes repository
+RUN cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://pkgs.k8s.io/core:/stable:/v1.30/rpm/
+enabled=1
+gpgcheck=1
+gpgkey=https://pkgs.k8s.io/core:/stable:/v1.30/rpm/repodata/repomd.xml.key
+EOF
+RUN dnf install -y kubectl && dnf clean all
+
+
+# 3. Install Terraform
+# We use the official HashiCorp repo for Amazon Linux systems
+RUN yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo && \
+yum install terraform
+
+
+# 4. Install Helm
+# The simplest way is using the official automated installer script
+RUN curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 && \
+    chmod 700 get_helm.sh && \
+    ./get_helm.sh && \
+    rm get_helm.sh
+
+
+# IMPORTANT: The base image has ENTRYPOINT ["aws"]. 
+# We reset it to /bin/bash so this functions as a general utility shell.
+ENTRYPOINT ["/bin/bash"]
+
